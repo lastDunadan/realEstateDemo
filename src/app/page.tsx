@@ -5,7 +5,7 @@ import Button from '@/atoms/Button';
 
 const Home = (): ReactElement => (
   <>
-    <Button />
+    <Button label={'content coming soon'} />
   </>
 );
 

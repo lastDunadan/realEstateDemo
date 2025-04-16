@@ -7,6 +7,6 @@ const buttonStyles = css`
 `;
 
 export const ButtonBody = styled.div`
-    ${buttonStyles};
-    color: ${({theme}) => theme.palette.purples.purple}
+  ${buttonStyles};
+  color: ${({ theme }) => theme.palette.purples.purple};
 `;
