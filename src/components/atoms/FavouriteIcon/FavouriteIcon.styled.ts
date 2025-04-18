@@ -35,7 +35,7 @@ export const FavouriteIconBody = styled.button<{ isFavourite: boolean }>`
   &:hover {
     background-color: ${({ theme }) => theme.palette.grays.white};
     border-color: ${({ theme }) => theme.palette.purples.purple};
-    box-shadow: 0 4px 40px 0 #e6e6ed;
+    box-shadow: 0 4px 40px 0 ${({ theme }) => theme.palette.grays.light};
 
     svg {
       color: ${({ theme }) => theme.palette.blues.light};
