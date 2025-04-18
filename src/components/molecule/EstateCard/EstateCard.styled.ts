@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 import Image from 'next/image';
 
 export const EstateCardBody = styled.div`
-  margin-left: 100px;
   display: flex;
   flex-direction: column;
   width: 352px;
