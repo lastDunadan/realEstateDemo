@@ -20,12 +20,12 @@ export const theme: Theme = {
     },
     purples: {
       light: '#8B8AFF',
-      purple: '#6851FF'
+      purple: '#6851FF',
     },
     blues: {
       light: '#3D1EFE',
       blue: '#2511AE',
-    }
+    },
   },
   interfaceWidth: `${breakpoints.interfaceWidth}px`,
   media: {
