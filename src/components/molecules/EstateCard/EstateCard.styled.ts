@@ -5,6 +5,7 @@ export const EstateCardBody = styled.div`
   display: flex;
   flex-direction: column;
   width: 352px;
+  min-width: 320px;
   height: 364px;
   border: 1px solid ${({ theme }) => theme.palette.grays.light};
   border-radius: 8px;

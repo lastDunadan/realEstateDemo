@@ -8,6 +8,7 @@ export const TestimonyAvatarBody = styled.div<{ isActive: boolean }>`
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 
   svg {
     position: absolute;

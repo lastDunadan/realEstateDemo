@@ -19,6 +19,8 @@ export const theme: Theme = {
       black: '#000000',
     },
     purples: {
+      lighterTransparent: 'rgba(237,234,255,0.3)',
+      lighter: '#EDEAFF',
       light: '#8B8AFF',
       purple: '#6851FF',
     },

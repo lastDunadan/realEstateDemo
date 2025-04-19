@@ -16,7 +16,7 @@ export interface EstateCardProps {
   estateType: ESTATE_TYPE;
   /** Price of buy/rent */
   estatePrice: string;
-  /** If true, monthly price indicator will appear */
+  /** If true, the monthly price indicator will appear */
   isRental: boolean;
   /** CTA name of an estate */
   estateName: string;

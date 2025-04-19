@@ -9,14 +9,20 @@ import type { TestimonyAvatar as TestimonyAvatarType } from './TestimonyAvatar.t
 export const TestimonyAvatar: TestimonyAvatarType = ({
   avatarUrl,
   isActive,
+  onClick,
 }) => {
   const rootRef = useRef<HTMLDivElement>(null!);
   const circleRef = useRef<SVGCircleElement>(null!);
 
-  useAvatarBorderAnimation(isActive, circleRef, rootRef, 12000);
+  useAvatarBorderAnimation({
+    isActive,
+    circleRef,
+    rootRef,
+    duration: 12000,
+  });
 
   return (
-    <TestimonyAvatarBody ref={rootRef} isActive={isActive}>
+    <TestimonyAvatarBody ref={rootRef} isActive={isActive} onClick={onClick}>
       <svg width="72" height="72">
         <circle
           ref={circleRef}

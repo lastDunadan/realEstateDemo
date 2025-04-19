@@ -14,13 +14,15 @@ export interface Palette {
     black: string;
   };
   purples: {
+    lighterTransparent: string;
+    lighter: string;
     light: string;
     purple: string;
-  }
+  };
   blues: {
     light: string;
     blue: string;
-  }
+  };
 }
 
 export interface Layers {

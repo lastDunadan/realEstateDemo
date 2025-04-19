@@ -21,6 +21,8 @@ export interface TestimonyAvatarProps {
   avatarUrl: string;
   /** Boolean that activates animation of a border */
   isActive: boolean;
+  /** Function used to actiave avatar on click */
+  onClick?: () => void;
 }
 
 export type UseAvatarBorderAnimation = (
