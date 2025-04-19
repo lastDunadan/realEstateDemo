@@ -10,29 +10,17 @@ export enum ESTATE_TYPE {
 }
 
 export interface EstateCardProps {
-  /**
-   * Estate cover image
-   */
+  /** Estate cover image */
   coverImage: string;
-  /**
-   * Type of estate for sell/rent
-   */
+  /** Type of estate for sell/rent */
   estateType: ESTATE_TYPE;
-  /**
-   * Price of buy/rent
-   */
+  /** Price of buy/rent */
   estatePrice: string;
-  /**
-   * If true, monthly price indicator will appear
-   */
+  /** If true, monthly price indicator will appear */
   isRental: boolean;
-  /**
-   * CTA name of an estate
-   */
+  /** CTA name of an estate */
   estateName: string;
-  /**
-   * Estate address/localtion
-   */
+  /** Estate address/localtion */
   estateLocation: string;
 }
 

@@ -16,17 +16,11 @@ export enum ACTION_TYPE {
 }
 
 export interface ButtonProps {
-  /**
-   * The label of the button.
-   */
+  /** The label of the button. */
   label: string;
-  /**
-   * The variant of the button. Either primary or secondary.
-   */
+  /** The variant of the button. Either primary or secondary. */
   variant: BUTTON_VARIANT;
-  /**
-   * The action type of the button. Either function-trigger, submit or navigation.
-   */
+  /** The action type of the button. Either function-trigger, submit or navigation. */
   actionType: ACTION_TYPE;
   /**
    * Payload, either a function, url or form id.
@@ -36,9 +30,7 @@ export interface ButtonProps {
    * If no payload is provided, the button will not perform any action.
    */
   payload?: string | (() => void);
-  /**
-   * If true, the button is disabled.
-   */
+  /** If true, the button is disabled. */
   isDisabled?: boolean;
 }
 export type ActionSelector = (props: ButtonProps) => ReactElement;

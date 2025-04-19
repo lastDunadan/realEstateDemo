@@ -1,6 +1,7 @@
 'use client';
 import type { ReactElement } from 'react';
 
+import { TestimonyAvatar } from '@/atoms/TestimonyAvatar/TestimonyAvatar';
 import { ESTATE_TYPE } from '@/components/molecule/EstateCard/EstateCard.types';
 
 import { EstateCard } from '../components/molecule/EstateCard/EstateCard';
@@ -15,6 +16,9 @@ const Home = (): ReactElement => (
       estateName="Beautiful Apartment in the City"
       estateLocation="New York, NY"
     />
+    <br />
+    <TestimonyAvatar avatarUrl={'/images/avatars/av1.jpg'} isActive={false} />
+    <TestimonyAvatar avatarUrl={'/images/avatars/av1.jpg'} isActive={true} />
   </>
 );
 
