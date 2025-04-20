@@ -11,6 +11,7 @@ const buttonBodyStyle = css`
   justify-content: center;
   align-items: center;
   width: fit-content;
+  min-width: 130px;
   height: 48px;
   padding: 12px 34px;
   border-width: 2px;

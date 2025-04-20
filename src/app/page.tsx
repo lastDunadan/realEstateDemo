@@ -6,8 +6,12 @@ import { TESTIMONIES } from '@/mocks/testimonies';
 import EstatesGallery from '@/organisms/EstatesGallery';
 import Testimonies from '@/organisms/Testimonies';
 
+import MainMenu from '../components/organisms/TopBar';
+
 const Home = (): ReactElement => (
   <>
+    <MainMenu />
+    <br />
     <EstatesGallery estatesData={ESTATES_DATA} />
     <br />
     <Testimonies testimonies={TESTIMONIES} />
