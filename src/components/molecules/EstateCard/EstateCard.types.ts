@@ -1,5 +1,19 @@
 /**
- * EstateCard
+ * EstateCard is a component that displays summary
+ * information about a real estate property.
+ * It includes a cover image, type of estate, etc.
+ *
+ * USAGE:
+ * ```jsx
+ *  <EstateCard
+ *    coverImage={'path/to/image.jpg'}
+ *    estateType={ESTATE_TYPE.HOUSE}
+ *    estatePrice={'$1,200'}
+ *    isRental={true}
+ *    estateName={'Beautiful House'}
+ *    estateLocation={'123 Main St, City, Country'}
+ *  />
+ * ```
  */
 
 import type { ReactElement } from 'react';

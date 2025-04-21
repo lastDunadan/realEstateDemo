@@ -63,7 +63,7 @@ export const DesktopMenu = styled.div`
     font-size: 14px;
     text-decoration: none;
     color: ${({ theme }) => theme.palette.grays.black};
-    font-weight: 500;
+    font-weight: ${({ theme }) => theme.fontWeight.medium};
 
     &:hover {
       color: ${({ theme }) => theme.palette.purples.purple};
@@ -90,7 +90,7 @@ export const MobileMenu = styled.div`
     font-size: 24px;
     text-decoration: none;
     color: ${({ theme }) => theme.palette.grays.black};
-    font-weight: 500;
+    font-weight: ${({ theme }) => theme.fontWeight.medium};
   }
 `;
 

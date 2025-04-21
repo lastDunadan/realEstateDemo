@@ -10,13 +10,13 @@ export const AchievementBody = styled.div`
 export const Count = styled.p`
   margin: 0;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: ${({ theme }) => theme.fontWeight.bold};
   color: ${({ theme }) => theme.palette.purples.purple};
 `;
 
 export const Title = styled.p`
   margin: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: ${({ theme }) => theme.fontWeight.medium};
   color: #666;
 `;

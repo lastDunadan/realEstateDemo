@@ -40,6 +40,10 @@ export const theme: Theme = {
   fonts: {
     jakartaSans: 'PlusJakartaSans',
   },
+  fontWeight: {
+    medium: 500,
+    bold: 700,
+  },
   zIndex: {
     standard: '0',
     medium: '1',

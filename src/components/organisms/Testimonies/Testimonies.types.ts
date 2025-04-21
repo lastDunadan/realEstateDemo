@@ -1,5 +1,13 @@
 /**
- * Testimonies
+ * Testimonies componet. It renders an animated gallery of testimonies.
+ * It is used to display the testimonials of the users.
+ *
+ * USAGE:
+ * ```jsx
+ *  <Testimonies
+ *    testimonies={testimoniesData[]}
+ *  />
+ * ```
  */
 
 import type { ReactElement } from 'react';
@@ -11,6 +19,7 @@ export interface Testimony {
 }
 
 export interface TestimoniesProps {
+  /** The testimonies to be displayed. */
   testimonies: Testimony[];
 }
 

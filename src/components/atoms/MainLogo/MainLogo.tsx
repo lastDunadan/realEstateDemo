@@ -1,3 +1,4 @@
+'use client';
 import { LogoBody, LogoImage, LogoText } from './MainLogo.styled';
 import type { MainLogo as MainLogoType } from './MainLogo.types';
 

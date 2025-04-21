@@ -1,3 +1,5 @@
+'use client';
+
 import { ButtonBody, LinkButtonBody } from './Button.styled';
 import type {
   ActionSelector as ActionSelectorType,

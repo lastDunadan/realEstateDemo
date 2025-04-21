@@ -30,7 +30,7 @@ export const TextWrapper = styled.div`
 
 export const MainHeadline = styled.h1`
   font-size: 32px;
-  font-weight: 700;
+  font-weight: ${({ theme }) => theme.fontWeight.bold};
   text-align: center;
   line-height: 1.2;
 
@@ -51,7 +51,7 @@ export const MainHeadline = styled.h1`
 
 export const ClaimParagraph = styled.p`
   font-size: 16px;
-  font-weight: 500;
+  font-weight: ${({ theme }) => theme.fontWeight.medium};
   text-align: center;
 
   @media ${({ theme }) => theme.media.laptop} {

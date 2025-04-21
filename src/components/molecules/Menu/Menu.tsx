@@ -1,3 +1,4 @@
+'use client';
 import { Bars2Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { useState } from 'react';

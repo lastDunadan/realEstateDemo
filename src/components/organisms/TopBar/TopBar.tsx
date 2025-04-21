@@ -1,3 +1,5 @@
+'use client';
+
 import MainLogo from '@/atoms/MainLogo';
 import Menu from '@/molecules/Menu';
 import MenuButtons from '@/molecules/MenuButtons';

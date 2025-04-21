@@ -14,14 +14,14 @@ export const WelcomeSection = styled.section`
 `;
 
 export const Headline = styled.h2`
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: ${({ theme }) => theme.fontWeight.bold};
   text-align: center;
   color: ${({ theme }) => theme.palette.grays.black};
 `;
 
 export const Paragraph = styled.p`
-  font-size: 1rem;
+  font-size: 16px;
   color: ${({ theme }) => theme.palette.grays.dark};
   margin-top: 10px;
   text-align: center;

@@ -1,5 +1,7 @@
+'use client';
+
 import Button from '@/atoms/Button';
-import { ACTION_TYPE, BUTTON_VARIANT } from '@/atoms/Button/Button.types';
+import { ACTION_TYPE, BUTTON_VARIANT } from '@/atoms/Button';
 
 import { MenuButtonsBody } from './MenuButtons.styled';
 import type { MenuButtons as MenuButtonsType } from './MenuButtons.types';

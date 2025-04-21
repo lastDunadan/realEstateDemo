@@ -1,4 +1,5 @@
-import { Achievement } from '../../atoms/Achievement/Achievement';
+import Achievement from '@/atoms/Achievement';
+
 import {
   AchievementsWrapper,
   ClaimParagraph,
@@ -24,7 +25,7 @@ export const Jumbotron: JumbotronType = () => (
         </MainHeadline>
         <ClaimParagraph>
           A great platform to buy, sell, or even rent <br />
-          your properties without any commisions.
+          your properties without any commissions.
         </ClaimParagraph>
         <AchievementsWrapper>
           <Achievement countValue="50k+" title="renters" />

@@ -1,21 +1,16 @@
 'use client';
 import type { ReactElement } from 'react';
 
+import { MainPage } from '@/components/templates/MainPage/MainPage';
 import { ESTATES_DATA } from '@/mocks/estates';
 import { TESTIMONIES } from '@/mocks/testimonies';
-import EstatesGallery from '@/organisms/EstatesGallery';
-import Jumbotron from '@/organisms/Jumbotron';
-import Testimonies from '@/organisms/Testimonies';
-
-import MainMenu from '../components/organisms/TopBar';
 
 const Home = (): ReactElement => (
   <>
-    <MainMenu />
-    <Jumbotron />
-    <EstatesGallery estatesData={ESTATES_DATA} />
-    <br />
-    <Testimonies testimonies={TESTIMONIES} />
+    <MainPage
+      selectedEstates={ESTATES_DATA}
+      selectedTestimonies={TESTIMONIES}
+    />
   </>
 );
 

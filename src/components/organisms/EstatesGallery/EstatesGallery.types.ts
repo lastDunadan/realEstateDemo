@@ -1,5 +1,18 @@
 /**
- * EstatesGallery
+ * EstatesGallery component for MainPage.
+ * It displays a gallery of estates, allowing users
+ * to switch between houses and apartments.
+ *
+ * USAGE:
+ * ```jsx
+ *  <EstatesGallery
+ *    estatesData={{
+ *      houses: [...],
+ *      apartments: [...],
+ *    }}
+ *  />
+ * ```
+ *
  */
 
 import type { ReactElement } from 'react';
@@ -13,7 +26,7 @@ export interface EstatesData {
 
 export interface EstatesGalleryProps {
   /**
-   * The estates data containing houses and apartments.
+   * The estate data containing houses and apartments.
    * Ether mock for development purpose or real data form CMS/API.
    */
   estatesData: EstatesData;
@@ -26,7 +39,6 @@ export interface UseEstatesGalleryReturnValues {
   selectedTab: 'houses' | 'apartments';
   /**
    * Function to set the selected tab.
-   * @param value - The new value of the selected tab.
    */
   setSelectedTab: (value: 'houses' | 'apartments') => void;
   /**

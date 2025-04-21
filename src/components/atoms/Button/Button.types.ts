@@ -1,5 +1,18 @@
 /**
- * Button
+ * Universal Button component
+ * It can be used for different purposes like navigation,
+ * function trigger or form submission.
+ *
+ * USAGE:
+ * ```jsx
+ * <Button
+ *   label="Click me"
+ *   variant={BUTTON_VARIANT.PRIMARY}
+ *   actionType={ACTION_TYPE.FUNCTION_TRIGGER}
+ *   payload={() => console.log('Button clicked')}
+ *   isDisabled={false}
+ * />
+ * ```
  */
 
 import type { ReactElement } from 'react';

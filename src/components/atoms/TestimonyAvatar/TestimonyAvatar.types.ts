@@ -1,5 +1,15 @@
 /**
- *  TestimonyAvatar
+ *  TestimonyAvatar component that displays an avatar image
+ *  with a border animation.
+ *
+ * USAGE:
+ * ```jsx
+ *  <TestimonyAvatar
+ *    avatarUrl="https://example.com/avatar.jpg"
+ *    isActive={true}
+ *    onClick={setAvatarActive}
+ *  />
+ * ```
  */
 
 import type { ReactElement } from 'react';

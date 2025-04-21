@@ -46,7 +46,7 @@ export const Price = styled.div`
   flex-wrap: nowrap;
   align-items: center;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: ${({ theme }) => theme.fontWeight.bold};
   color: ${({ theme }) => theme.palette.purples.purple};
   line-height: 1.5;
 
@@ -60,7 +60,7 @@ export const Price = styled.div`
 export const EstateName = styled.div`
   max-width: 235px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: ${({ theme }) => theme.fontWeight.bold};
   color: ${({ theme }) => theme.palette.grays.black};
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -76,6 +76,6 @@ export const FavoriteWrapper = styled.div`
 
 export const EstateLocation = styled.div`
   font-size: 16px;
-  font-weight: 500;
+  font-weight: ${({ theme }) => theme.fontWeight.medium};
   color: ${({ theme }) => theme.palette.grays.dark};
 `;

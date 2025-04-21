@@ -46,5 +46,9 @@ export interface Theme {
   fonts: {
     jakartaSans: string;
   };
+  fontWeight: {
+    medium: number;
+    bold: number;
+  };
   zIndex: Layers;
 }
