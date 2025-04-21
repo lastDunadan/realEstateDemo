@@ -33,6 +33,7 @@ export const MainHeadline = styled.h1`
   font-weight: ${({ theme }) => theme.fontWeight.bold};
   text-align: center;
   line-height: 1.2;
+  opacity: 0;
 
   @media ${({ theme }) => theme.media.mobile} {
     font-size: 44px;
@@ -53,6 +54,7 @@ export const ClaimParagraph = styled.p`
   font-size: 16px;
   font-weight: ${({ theme }) => theme.fontWeight.medium};
   text-align: center;
+  opacity: 0;
 
   @media ${({ theme }) => theme.media.laptop} {
     font-size: 20px;
@@ -68,6 +70,7 @@ export const AchievementsWrapper = styled.div`
   gap: 44px;
   margin-top: 34px;
   margin-left: -2%;
+  opacity: 0;
 
   @media ${({ theme }) => theme.media.laptop} {
     justify-content: left;

@@ -56,5 +56,6 @@ export const Estates = styled.div`
 
   @media ${({ theme }) => theme.media.laptop} {
     justify-content: center;
+    overflow-x: hidden;
   }
 `;

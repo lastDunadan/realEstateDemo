@@ -2,8 +2,7 @@ Welcome to demo site for Estate Agency.
 
 You’re invited to explore the demo published via Vercel:
 
-[🌐 Live Demo → Verceladdres.com](https://verceladdres)
-
+[🌐 Live Demo → https://lastdunadan.github.io/realEstateDemo/](https://lastdunadan.github.io/realEstateDemo/)
 
 ### Node Version Management
 To manage the Node.js version, use [NVM](https://github.com/nvm-sh/nvm). Run the following command in the root of the project to install the correct Node.js version as specified in the `.nvmrc` file:
