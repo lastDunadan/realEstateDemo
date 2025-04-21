@@ -1,5 +1,5 @@
 'use client';
-import '@/public/fonts/fonts.css';
+import '@/public/realEstateDemo/fonts/fonts.css';
 
 import { css, Global } from '@emotion/react';
 import type { ReactElement } from 'react';
