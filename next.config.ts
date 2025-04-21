@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const isGH = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  output: 'export',
+  basePath: isGH ? '/realEstateDemo' : '',
+  assetPrefix: isGH ? '/realEstateDemo/' : '',
 };
 
 export default nextConfig;

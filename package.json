@@ -2,9 +2,12 @@
   "name": "realestate-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lastDunadan.github.io/realEstateDemo",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "export": "next export",
+    "deploy": "npm run build && gh-pages -d out",
     "start": "next start",
     "types-check": "tsc --noEmit",
     "prepare": "husky install",
@@ -39,6 +42,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-tsdoc": "^0.4.0",
+    "gh-pages": "^6.3.0",
     "husky": "^8.0.3",
     "prettier": "^2.8.8",
     "typescript": "^5"
