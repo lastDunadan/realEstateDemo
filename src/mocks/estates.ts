@@ -3,7 +3,7 @@ import { ESTATE_TYPE } from '@/molecules/EstateCard/EstateCard.types';
 
 export const HOUSES: EstateCardProps[] = [
   {
-    coverImage: '/realEstateDemo/images/estates/estate1.jpg',
+    coverImage: '/images/estates/estate1.jpg',
     estateType: ESTATE_TYPE.HOUSE,
     estatePrice: '$3,440',
     isRental: true,
@@ -11,7 +11,7 @@ export const HOUSES: EstateCardProps[] = [
     estateLocation: '2699 Green Valley, Highland Lake, FL',
   },
   {
-    coverImage: '/realEstateDemo/images/estates/estate2.jpg',
+    coverImage: '/images/estates/estate2.jpg',
     estateType: ESTATE_TYPE.HOUSE,
     estatePrice: '$6,550',
     isRental: true,
@@ -19,7 +19,7 @@ export const HOUSES: EstateCardProps[] = [
     estateLocation: '210 US Highway, Highland Lake, FL',
   },
   {
-    coverImage: '/realEstateDemo/images/estates/estate3.jpg',
+    coverImage: '/images/estates/estate3.jpg',
     estateType: ESTATE_TYPE.HOUSE,
     estatePrice: '$4,950',
     isRental: true,
@@ -30,7 +30,7 @@ export const HOUSES: EstateCardProps[] = [
 
 export const APARTMENTS: EstateCardProps[] = [
   {
-    coverImage: '/realEstateDemo/images/estates/estate4.jpg',
+    coverImage: '/images/estates/estate4.jpg',
     estateType: ESTATE_TYPE.APARTMENT,
     estatePrice: '$2,140',
     isRental: true,
@@ -38,7 +38,7 @@ export const APARTMENTS: EstateCardProps[] = [
     estateLocation: '2699 Green Valley, Highland Lake, FL',
   },
   {
-    coverImage: '/realEstateDemo/images/estates/estate5.jpg',
+    coverImage: '/images/estates/estate5.jpg',
     estateType: ESTATE_TYPE.APARTMENT,
     estatePrice: '$1,450',
     isRental: true,
@@ -46,7 +46,7 @@ export const APARTMENTS: EstateCardProps[] = [
     estateLocation: '2699 Green Valley, Highland Lake, FL',
   },
   {
-    coverImage: '/realEstateDemo/images/estates/estate1.jpg',
+    coverImage: '/images/estates/estate1.jpg',
     estateType: ESTATE_TYPE.APARTMENT,
     estatePrice: '$3,850',
     isRental: true,
