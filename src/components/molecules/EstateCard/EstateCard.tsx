@@ -22,7 +22,7 @@ const estateTypeTagSelector: EstateTypeTagSelectorType = estateType => {
     case ESTATE_TYPE.APARTMENT:
       return (
         <EstateTypeTag
-          src={'/realEstateDemo/images/tag-apartments.svg'}
+          src={'/images/tag-apartments.svg'}
           width={135}
           height={40}
           alt="Apartments"
@@ -32,7 +32,7 @@ const estateTypeTagSelector: EstateTypeTagSelectorType = estateType => {
     case ESTATE_TYPE.HOUSE:
       return (
         <EstateTypeTag
-          src={'/realEstateDemo/images/tag-house.svg'}
+          src={'/images/tag-house.svg'}
           width={96}
           height={40}
           alt="House"
