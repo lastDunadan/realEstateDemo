@@ -35,13 +35,13 @@ export const Jumbotron: JumbotronType = () => (
     </JumbotronColumn>
     <JumbotronColumn>
       <JumbotronBackground
-        src="/images/jumbotron/jumbotron-map.png"
+        src="/realEstateDemo/images/jumbotron/jumbotron-map.png"
         alt="Estate Map"
         width={800}
         height={800}
       />
       <EstateMock
-        src="/images/jumbotron/estate-mock.png"
+        src="/realEstateDemo/images/jumbotron/estate-mock.png"
         alt="Estate Card"
         width={432}
         height={425}
