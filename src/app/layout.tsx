@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import type { ReactElement, ReactNode } from 'react';
 
+import Footer from '@/organisms/Footer';
 import TopBar from '@/organisms/TopBar';
 import { ThemeProvider } from '@/styles';
 import GlobalStyle from '@/styles/GlobalStyle';
@@ -27,7 +28,7 @@ export default function RootLayout({
           <GlobalStyle />
           <TopBar />
           {children}
-          <div>...footer not yet implemented...</div>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
