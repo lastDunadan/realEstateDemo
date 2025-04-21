@@ -1,3 +1,5 @@
+'use client';
+
 import TabSwitch from '@/atoms/TabSwitch';
 import EstateCard from '@/molecules/EstateCard';
 

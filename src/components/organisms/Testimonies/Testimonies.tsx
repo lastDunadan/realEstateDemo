@@ -1,3 +1,5 @@
+'use client';
+
 import TestimonyAvatar from '@/atoms/TestimonyAvatar';
 
 import { useTestimonies } from './Testimonies.hook';
