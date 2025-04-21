@@ -17,6 +17,11 @@ export default function RootLayout({
 }>): ReactElement {
   return (
     <html>
+      <head>
+        {process.env.NODE_ENV === 'production' && (
+          <base href="/realEstateDemo/" />
+        )}
+      </head>
       <body>
         <ThemeProvider>
           <GlobalStyle />
