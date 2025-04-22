@@ -12,22 +12,32 @@ export const FooterBody = styled.div`
 
 export const VerticalSection = styled.div<{ border?: boolean }>`
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 24px 0;
   margin-bottom: 16px;
+  gap: 24px;
 
   ${({ border, theme }) =>
     border &&
     css`
       border-bottom: 1px solid ${theme.palette.grays.light};
     `}
+
+  @media ${({ theme }) => theme.media.laptop} {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
 `;
 
 export const LinksSection = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
 
   a {
@@ -39,6 +49,10 @@ export const LinksSection = styled.div`
     &:hover {
       color: ${({ theme }) => theme.palette.purples.purple};
     }
+  }
+
+  @media ${({ theme }) => theme.media.laptop} {
+    flex-wrap: nowrap;
   }
 `;
 
